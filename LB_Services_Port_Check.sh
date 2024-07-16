@@ -32,14 +32,13 @@ ports=(
     "ETCD:2380"
     "Monitoring metrics:8090"
     "Monitoring metrics:443"
-    "Name Discovery:4420"
-    "Name Discovery:8009"
+    "Nvme Discovery:4420"
+    "Nvme Discovery:8009"
     "Lightbits replica traffic:22226"
     "cluster-manager debug:4000"
     "node-manager debug:4001"
     "discovery-service debug:6060"
     "duroslight debug:9180"
-    "duroslight-90 debug:9999"
 )
 
 # Function to check the status of a service on the remote host
