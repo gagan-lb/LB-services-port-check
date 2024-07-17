@@ -14,7 +14,7 @@ Usage
 
 2. Make the script executable:
 
-chmod +x LB_Services_Port_Check.sh.sh
+chmod +x LB_Services_Port_Check.sh
 
 3. Run the script with command-line arguments:
 
