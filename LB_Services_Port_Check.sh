@@ -22,6 +22,7 @@ services=(
     "lightbox-exporter"
     "discovery-service"
     "etcd"
+    "gftl"
 )
 
 # List of ports to check
@@ -32,13 +33,16 @@ ports=(
     "ETCD:2380"
     "Monitoring metrics:8090"
     "Monitoring metrics:443"
-    "Nvme Discovery:4420"
+    "Nvme TCP:4420"
+    "Nvme TCP (2numa1ip):4421"
     "Nvme Discovery:8009"
     "Lightbits replica traffic:22226"
+    "Lightbits replica traffic (2numa1ip):22227"
     "cluster-manager debug:4000"
     "node-manager debug:4001"
     "discovery-service debug:6060"
-    "duroslight debug:9180"
+    "duroslight debug (1numa):9180"
+    "duroslight debug (2numa):9181"
 )
 
 # Function to check the status of a service on the remote host
